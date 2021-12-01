@@ -1,0 +1,1000 @@
+ 1006  ls N*
+ 1007  mv Nemo.mp3 ~/Music/
+ 1008  mplayer Nelly\ Furtado\ -\ All\ Good\ Things\ Come\ To\ An\ End.mp3 
+ 1009  ls N*
+ 1010  cd 'No Doubt'/
+ 1011  mv * ~/Music/No Doubt/
+ 1012  mv * ~/Music/'No Doubt'/
+ 1013  ls N*
+ 1014  cd ..
+ 1015  l
+ 1016  ls N*
+ 1017  rmdir 'No Doubt'/
+ 1018  man mv
+ 1019  mvdir 'Natasha Beddingfield'/ ~/Music/
+ 1020  mv 'Natasha Beddingfield'/ ~/Music/
+ 1021  ls N*
+ 1022  ls O*
+ 1023  mv Outcast\ -\ Hey\ ya\ Hodenk.mp3 ~/Music/
+ 1024  mplayer Outkast_-_Hey_Ya_\(Andre_3000\)\ VIDEO.mpg 
+ 1025  mv Outkast_-_Hey_Ya_\(Andre_3000\)\ VIDEO.mpg ~/Music/
+ 1026  ls O*
+ 1027  ls P*
+ 1028  mplayer Paper\ Planes.mp3 
+ 1029  ls P*
+ 1030  mv Paper\ Planes.mp3 ~/Music/
+ 1031  mv Paramore-Decode.mp3 ~/Music/
+ 1032  mplayer Placebo\ -\ Every\ me\ Every\ you.mp3 
+ 1033  ls P*
+ 1034  mv Placebo\ -\ Every\ me\ Every\ you.mp3 ~/Music/
+ 1035  mplayer Pondlife\ -\ 01\ -\ Crazy\ frog\ chorus\ -\ original\ radio\ mix\ 1.mp3 
+ 1036  rm Pondlife\ -\ 01\ -\ Crazy\ frog\ chorus\ -\ original\ radio\ mix\ 1.mp3 
+ 1037  ls Q*
+ 1038  mplayer Queen\ -\ A\ kind\ of\ magic.mp3 
+ 1039  mv Queen\ -\ \[Greatest\ Hits\ -\ 16\]\ -\ We\ Will\ Rock\ You.mp3  ~/Music/
+ 1040  ls R*
+ 1041  mplayer Running\ Faster.mp3 
+ 1042  ls R*
+ 1043  mv 'Rolling Stones - Satisfaction.mp3' 'Rihanna_Disturbia.mp3' 'Running Faster.mp3' ~/Music/
+ 1044  ls R*
+ 1045  ls S*
+ 1046  mplayer 'Staring At The Sun.mp3' 
+ 1047  ls S*
+ 1048  mv 'Silverchair - Ana'\''s Song (Open Fire).mp3' 'Staring At The Sun.mp3'  'Superman Lovers - Starlight.mp3' ~/Music/
+ 1049  ls T*
+ 1050  mv 'The Smallville Soundtrack'/ ~/Music/
+ 1051  ls T*
+ 1052  mv 'The Darkness - I Believe In A Thing Called Love.mp3'
+ 1053  mv 'The Darkness - I Believe In A Thing Called Love.mp3' 'The Fray - How to Save a Life.mp3'
+ 1054  mv 'The Darkness - I Believe In A Thing Called Love.mp3' 'The Fray - How to Save a Life.mp3' The_Raconteurs_-_Broken_Boy_Soldiers_-_09_-_Call_It_A_Day.mp3 'Three Doors Down - Kriptonite.mp3'
+ 1055  mv 'The Darkness - I Believe In A Thing Called Love.mp3' 'The Fray - How to Save a Life.mp3' The_Raconteurs_-_Broken_Boy_Soldiers_-_09_-_Call_It_A_Day.mp3 'Three Doors Down - Kriptonite.mp3' 'Time Is Running Out.mp3'
+ 1056  mv 'The Darkness - I Believe In A Thing Called Love.mp3' 'The Fray - How to Save a Life.mp3' The_Raconteurs_-_Broken_Boy_Soldiers_-_09_-_Call_It_A_Day.mp3 'Three Doors Down - Kriptonite.mp3' 'Time Is Running Out.mp3''Track 07 - Basket Case.mp3'
+ 1057  mv 'The Darkness - I Believe In A Thing Called Love.mp3' 'The Fray - How to Save a Life.mp3' The_Raconteurs_-_Broken_Boy_Soldiers_-_09_-_Call_It_A_Day.mp3 'Three Doors Down - Kriptonite.mp3' 'Time Is Running Out.mp3''Track 07 - Basket Case.mp3' ~/Music/
+ 1058  ls U*
+ 1059  ls V*
+ 1060  mplayer Vienna\ Teng\ -\ Gravity.mp3 
+ 1061  rm Vienna\ Teng\ -\ Gravity.mp3 
+ 1062  ls V*
+ 1063  ls W*
+ 1064  mplayer Wild\ Child.mp3 
+ 1065  mv Within\ Temptation\ -\ The\ Cross.mp3 ~/Music/
+ 1066  ls X*
+ 1067  ls Y*
+ 1068  ls Z*
+ 1069  ls
+ 1070  cd System\ Volume\ Information/
+ 1071  ls
+ 1072  less WPSettings.dat 
+ 1073  less IndexerVolumeGuid 
+ 1074  cd ..
+ 1075  rm -rf System\ Volume\ Information/
+ 1076  ls
+ 1077  cd legend
+ 1078  ls
+ 1079  l
+ 1080  cd ..
+ 1081  l
+ 1082  ls 0*
+ 1083  sudo apt install fdupes
+ 1084  man fdupes
+ 1085  fdupes -r ~
+ 1086  l
+ 1087  ls 0*
+ 1088  ls 01*
+ 1089  ls 02*
+ 1090  ls 0*
+ 1091  mplayer '06 - Led Zeppelin - Kashmir.mp3' 
+ 1092  ls
+ 1093  cd ~/
+ 1094  ls
+ 1095  mkdir toets
+ 1096  cd toets/
+ 1097  mkdir rm
+ 1098  cd rm
+ 1099  vi regex
+ 1100  man touch
+ 1101  touch 1
+ 1102  l
+ 1103  touch 1,2,3,4
+ 1104  l
+ 1105  rm 1,2,3,4
+ 1106  l
+ 1107  touch 2 3 4 5 6 7 
+ 1108  l
+ 1109  vi 2
+ 1110  touch a.py b.py
+ 1111  l
+ 1112  cd ..
+ 1113  l
+ 1114  cd rm
+ 1115  l
+ 1116  cd ..
+ 1117  find -E . -regex './(dir1|dir2|dir3)' -and -type d -prune -o -print -exec rm -rf {} \;
+ 1118  man grep
+ 1119  grep -r *.py
+ 1120  man grep
+ 1121  grep -rf *.py
+ 1122  grep *
+ 1123  grep -r *.py
+ 1124  grep -r a.py
+ 1125  grep -r *.py | less
+ 1126  man find
+ 1127  find *.py
+ 1128  find -r *.py
+ 1129  man find
+ 1130  find . -name "*.py"
+ 1131  find . -name "*.py" | rm *.py
+ 1132  find . -name "*.py" -type f -delete
+ 1133  find . -name "*.py"
+ 1134  cd rm
+ 1135  l
+ 1136  cd ../..
+ 1137  vi .bashrc 
+ 1138  l
+ 1139  rm toets -r
+ 1140  l
+ 1141  cd Music/
+ 1142  l N*
+ 1143  find . -name "*.jpg" -type f -delete
+ 1144  find . -name "*.ini" -type f -delete
+ 1145  cd 'No Doubt'/
+ 1146  ls
+ 1147  cd Unknown\ Album/
+ 1148  l
+ 1149  ls T*
+ 1150  cd ..
+ 1151  ls T*
+ 1152  ls
+ 1153  cd The\ Smallville\ Soundtrack/
+ 1154  mplayer *
+ 1155  cd legend
+ 1156  l
+ 1157  cd ..
+ 1158  cd legend
+ 1159  l
+ 1160  cd ..
+ 1161  cd legend/
+ 1162  l
+ 1163  less Thumbs.db 
+ 1164  cd ..
+ 1165  find . -name "*.db" -type f -delete
+ 1166  cd legend
+ 1167  l
+ 1168  cd ..
+ 1169  l
+ 1170  cd legend && l
+ 1171  l
+ 1172  cd ..
+ 1173  ls C*
+ 1174  cd /media/
+ 1175  l
+ 1176  cd blikbrein/7008-BF7E/
+ 1177  l
+ 1178  cd legend/
+ 1179  l
+ 1180  mv 06\ -\ Milk\ \&\ Sugar\ -\ Let\ the\ sun\ shine\ in.wma ~/Music/
+ 1181  cd ../afrikaans/
+ 1182  l
+ 1183  vi toets.py 
+ 1184  py toets.py 
+ 1185  afskakel
+ 1186  cd python/
+ 1187  l
+ 1188  cd automate-web-form-form-sample/
+ 1189  l
+ 1190  cd Income\ Form_files/
+ 1191  l
+ 1192  cd ..
+ 1193  l
+ 1194  cd ../Automate-with-Python-_-Form-Filling-Script-/
+ 1195  l
+ 1196  py myview.py 
+ 1197  vi myview.py 
+ 1198  pip PyPDF2
+ 1199  man pip
+ 1200  pip install PyPDF2
+ 1201  l
+ 1202  py myview.py 
+ 1203  bash
+ 1204  py myview.py 
+ 1205  cd /
+ 1206  l
+ 1207  cd lib
+ 1208  l
+ 1209  cd ..
+ 1210  l
+ 1211  cd python/Automate-with-Python-_-Form-Filling-Script-/
+ 1212  py myview.py
+ 1213  vi myview.py 
+ 1214  l
+ 1215  vi Inkomen_Loondiens-Test.
+ 1216  vi Inkomen_Loondiens-Test.txt 
+ 1217  cd lib/
+ 1218  l
+ 1219  echo ${CLASSPATH}
+ 1220  sudo su
+ 1221  echo ${CLASSPATH}
+ 1222  sudo export CLASSPATH=/root/java
+ 1223  sudo su
+ 1224  l
+ 1225  less netsim2.jar 
+ 1226  cp netsim2.jar /root/java
+ 1227  sudo cp netsim2.jar /root/java
+ 1228  java netsim.Boot
+ 1229  sudo apt install default-jre 
+ 1230  java netsim.Boot
+ 1231  find netsim.boot
+ 1232  find netsim.Boot
+ 1233  cd /root/java
+ 1234  sudo cd /root/java
+ 1235  l
+ 1236  cd /
+ 1237  l
+ 1238  cd root
+ 1239  sudo su
+ 1240  $ sudo apt-get install gtk2-engines-murrine:i386 libcanberra-gtk-module:i386
+ 1241  libatk-adaptor:i386 libgail-common:i386
+ 1242  $ sudo add-apt-repository "deb http://archive.canonical.com/ precise partner"
+ 1243  $ sudo apt-get update
+ 1244  sudo apt-get install gtk2-engines-murrine:i386 libcanberra-gtk-module:i386
+ 1245  libatk-adaptor:i386 libgail-common:i386
+ 1246  sagi libatk-adaptor:i386 libgail-common:i386
+ 1247  $ sudo add-apt-repository "deb http://archive.canonical.com/ precise partner"
+ 1248  sudo add-apt-repository "deb http://archive.canonical.com/ precise partner"
+ 1249  sagu
+ 1250  sagi adobereader-enu
+ 1251  sagi adobereader
+ 1252  sagi adobe
+ 1253  adobe
+ 1254  l
+ 1255  cd python/
+ 1256  l
+ 1257  cd Automate-with-Python-_-Form-Filling-Script-/
+ 1258  l
+ 1259  vi lat.txt 
+ 1260  ls -ah
+ 1261  cat .lat.txt.swp 
+ 1262  cat lat.txt 
+ 1263  rm .lat.txt.swp 
+ 1264  vi lat.txt 
+ 1265  l
+ 1266  cat myview.py 
+ 1267  less myview.py 
+ 1268  vi slice.py
+ 1269  vi id
+ 1270  vi idslice.py
+ 1271  py slice.py 
+ 1272  l
+ 1273  afskakel
+ 1274  l
+ 1275  cd python/
+ 1276  l
+ 1277  cd Automate-with-Python-_-Form-Filling-Script-/
+ 1278  l
+ 1279  vi lat.txt 
+ 1280  vi slice.py 
+ 1281  py slice.py 
+ 1282  l
+ 1283  less myview.py 
+ 1284  less Inkomen_Loondiens-Test.txt 
+ 1285  vi Inkomen_Loondiens-Test.txt 
+ 1286  py slice.py 
+ 1287  afskakel
+ 1288  cd python/Automate-with-Python-_-Form-Filling-Script-/
+ 1289  l
+ 1290  vi Inkomen_Loondiens-Test.txt 
+ 1291  vi lat.txt 
+ 1292  l
+ 1293  vi slice.py 
+ 1294  vi xpath.py
+ 1295  l
+ 1296  py slice.py 
+ 1297  l
+ 1298  py xpath.py 
+ 1299  afskakel
+ 1300  cd Music/
+ 1301  l
+ 1302  mplayer Silverchair\ -\ Ana\'s\ Song\ \(Open\ Fire\).mp3 
+ 1303  cd The\ Greatest\ Rock\ Album/
+ 1304  l
+ 1305  mplayer *
+ 1306  afskakel
+ 1307  l
+ 1308  cd python/
+ 1309  l
+ 1310  cd Automate-with-Python-_-Form-Filling-Script-/
+ 1311  l
+ 1312  less lat.txt 
+ 1313  cat lat.txt 
+ 1314  cd ~/Music/
+ 1315  l
+ 1316  cd The\ Greatest\ Rock\ Album/
+ 1317  man mplayer 
+ 1318  mplayer * -shuffle 
+ 1319  l
+ 1320  cd GNS3/
+ 1321  l
+ 1322  mkdir notes
+ 1323  l
+ 1324  cd notes
+ 1325  l
+ 1326  vi stup
+ 1327  exit
+ 1328  vi toets
+ 1329  emacs toets
+ 1330  l
+ 1331  rm '#toets#' 
+ 1332  l
+ 1333  less pong.py 
+ 1334  cd GNS3/
+ 1335  l
+ 1336  cd notes/
+ 1337  l
+ 1338  cat stup 
+ 1339  exit
+ 1340  l
+ 1341  cd python/
+ 1342  l
+ 1343  cd ..
+ 1344  l
+ 1345  cd Downloads/
+ 1346  l
+ 1347  cd ..
+ 1348  cd Documents/
+ 1349  l
+ 1350  cd ..
+ 1351  history | less
+ 1352  libvert
+ 1353  libvir
+ 1354  sagi libvirt
+ 1355  netlab
+ 1356  netlab install ubuntu ansible libvirt
+ 1357  netlab test
+ 1358  netlab test -h
+ 1359  netlab test libvirt
+ 1360  virtualbox
+ 1361  sagi virtualbox-qt
+ 1362  netlab test virtualbox
+ 1363  netlab up topology
+ 1364  netlab install ubuntu ansible libvirt
+ 1365  exit
+ 1366  git
+ 1367  git --version
+ 1368  global --config -list
+ 1369  global config -list
+ 1370  git global config -list
+ 1371  git config -list
+ 1372  git config --list
+ 1373  git config --global user.name "Johan"
+ 1374  git config --global user.email "jnf.ok@outlook.com"
+ 1375  git config --list
+ 1376  which git
+ 1377  git config --global user.name "Xen0phon"
+ 1378  git config --global user.email "aalexandersoncompanion2@gmail.com"
+ 1379  git pull ?
+ 1380  git pull -help
+ 1381  git pull https://github.com/Xen0phon/Toets/blob/main/README.md
+ 1382  git remote add origin -help
+ 1383  git remote add origin
+ 1384  git init
+ 1385  git pull https://github.com/Xen0phon/Toets/blob/main/README.md
+ 1386  git pull https://github.com/Xen0phon/Toets/README.md
+ 1387  git remote add origin https://github.com/Xen0phon/Toets
+ 1388  git init
+ 1389  git pull https://github.com/Xen0phon/Toets/README.md
+ 1390  git clone -help
+ 1391  github clone https://github.com/Xen0phon/Toets.git
+ 1392  git clone https://github.com/Xen0phon/Toets.git
+ 1393  l
+ 1394  cd -ah
+ 1395  l -ah
+ 1396  cd .git/
+ 1397  l
+ 1398  git pull README.md
+ 1399  l
+ 1400  cd branches/
+ 1401  l
+ 1402  cd ..
+ 1403  cd objects/
+ 1404  l
+ 1405  cd ..
+ 1406  git pull https://github.com/Xen0phon/Toets.git
+ 1407  cd ..
+ 1408  l
+ 1409  git pull https://github.com/Xen0phon/Toets.git
+ 1410  l
+ 1411  vi README.md 
+ 1412  git push https://github.com/Xen0phon/Toets.git
+ 1413  cd .git/
+ 1414  l
+ 1415  exit
+ 1416  l
+ 1417  cd git
+ 1418  rm .git
+ 1419  l
+ 1420  rm -r .git
+ 1421  rm -rf .git
+ 1422  l
+ 1423  l -ah
+ 1424  rm .gitconfig 
+ 1425  mkdir
+ 1426  mkdir git
+ 1427  l
+ 1428  cd git
+ 1429  l
+ 1430  git config --global user.name "Xen0phon"
+ 1431  git config --global user.email "aalexandersoncompanion2@gmail.com"
+ 1432  l
+ 1433  l -ah
+ 1434  cd ..
+ 1435  l
+ 1436  less .gitconfig 
+ 1437  git init
+ 1438  l -ah
+ 1439  rm -rf .git
+ 1440  cd git
+ 1441  l
+ 1442  git init
+ 1443  l
+ 1444  l -ah
+ 1445  git clone https://github.com/Xen0phon/Toets.git
+ 1446  l
+ 1447  git clone Xen0phon/Toets
+ 1448  git clone https://github.com/Xen0phon/Toets.git
+ 1449  l
+ 1450  cd Toets
+ 1451  l
+ 1452  vi README.md 
+ 1453  git push README.md
+ 1454  cd ..
+ 1455  git push https://github.com/Xen0phon/Toets.git
+ 1456  l -ah
+ 1457  git status
+ 1458  git commit -m "lekka leka"
+ 1459  cd Toets/
+ 1460  l
+ 1461  git commit -m "lekka leka"
+ 1462  git status
+ 1463  git push """
+ 1464  Created on Wed Sep 23 22:49:08 2020
+ 1465  @author: Ni and Mo
+ 1466  """
+ 1467  from bs4 import BeautifulSoup
+ 1468  import requests
+ 1469  git push https://github.com/Xen0phon/Toets.git
+ 1470  git push -u origin master
+ 1471  git add .
+ 1472  git push -u origin master
+ 1473  git status
+ 1474  git commit -m "verander"
+ 1475  git status
+ 1476  git remote add origin https://github.com/Xen0phon/Toets.git
+ 1477  git remote -v
+ 1478  git status
+ 1479  git push -u origin master
+ 1480  git branch -mv origin master
+ 1481  cd ..
+ 1482  git push -u origin master
+ 1483  git init
+ 1484  git add .
+ 1485  git commit -m 'Initial Commit'
+ 1486  git push -u origin master
+ 1487  cd Toets/
+ 1488  l
+ 1489  cat README.md 
+ 1490  git push -u origin main 
+ 1491  git push -u origin master
+ 1492  git push -mv origin master
+ 1493  git push origin main
+ 1494  git push -u origin master
+ 1495  git status
+ 1496  git pull --rebase
+ 1497  git pull --rebase origin main
+ 1498  git push origin main
+ 1499  git config --global pull.rebase true
+ 1500  git config --global rebase.autoStash true
+ 1501  git push -u origin main
+ 1502  cd ..
+ 1503  git push -u origin master
+ 1504  cd ..
+ 1505  rm -rf git
+ 1506  l
+ 1507  mkdir toets
+ 1508  mvdir toets proj
+ 1509  rmdir toet
+ 1510  L
+ 1511  l
+ 1512  cd toets/
+ 1513  l
+ 1514  cd ..
+ 1515  cd Toets/
+ 1516  l
+ 1517  cd ..
+ 1518  l
+ 1519  rm README.md 
+ 1520  cd Toets/
+ 1521  l
+ 1522  cd ..
+ 1523  rm -rf Toets/
+ 1524  l
+ 1525  mkdir proj
+ 1526  l
+ 1527  cd proj/
+ 1528  l
+ 1529  git init
+ 1530  git clone https://github.com/Xen0phon/Toets.git
+ 1531  git pull https://github.com/Xen0phon/Toets.git
+ 1532  git status
+ 1533  l
+ 1534  cd ..
+ 1535  l
+ 1536  cd toets/
+ 1537  l
+ 1538  cd ..
+ 1539  rmdir toets/
+ 1540  l
+ 1541  cd proj/
+ 1542  l
+ 1543  cd Toets/
+ 1544  l
+ 1545  cd ..
+ 1546  l
+ 1547  vi README.md 
+ 1548  cd Toets/
+ 1549  vi README.md 
+ 1550  cd ..
+ 1551  status
+ 1552  git statys
+ 1553  git status
+ 1554  git add README.md 
+ 1555  git status
+ 1556  git commit -m "yeah"
+ 1557  git status
+ 1558  git push -u origin master
+ 1559  cd Toets/
+ 1560  git add README.md 
+ 1561  git status
+ 1562  git commit -m "y"
+ 1563  git status
+ 1564  git push -u origin master
+ 1565  cd ..
+ 1566  git push -u origin master
+ 1567  cd ..
+ 1568  git push -u origin master
+ 1569  cd proj/
+ 1570  l
+ 1571  cd Toets/
+ 1572  l
+ 1573  git push -u origin master
+ 1574  cd ..
+ 1575  l
+ 1576  cd Toets/
+ 1577  l
+ 1578  vi nuwe.txt
+ 1579  git add nuwe.txt 
+ 1580  git status
+ 1581  git commit -m "y"
+ 1582  git status
+ 1583  git push -u origin master
+ 1584  exit
+ 1585  cd ~
+ 1586  l
+ 1587  cd git/
+ 1588  l
+ 1589  cd ..
+ 1590  vi git cmd
+ 1591  vi git
+ 1592  l
+ 1593  vi GNS3
+ 1594  vi git_cmd
+ 1595  exir
+ 1596  exit
+ 1597  cd ~/proj/
+ 1598  l
+ 1599  cd Toets/
+ 1600  l
+ 1601  lib
+ 1602  libreoffice leka.odt
+ 1603  l
+ 1604  touch leka.odt
+ 1605  l
+ 1606  libreoffice leka.odt 
+ 1607  cd proj/
+ 1608  l
+ 1609  git push -u origin master
+ 1610  cd Toets/
+ 1611  l
+ 1612  git push -u origin master
+ 1613  git remote -v
+ 1614  git commit -m "l"
+ 1615  cd ..
+ 1616  git push -u origin master
+ 1617  git status
+ 1618  git add .
+ 1619  git commit -m "l"
+ 1620  git push -u origin master
+ 1621  cd Toets/
+ 1622  git push origin master
+ 1623  git status
+ 1624  git push origin main
+ 1625  git push -u origin main
+ 1626  git remote set-url origin https://Xen0phon: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@github.com/Xen0phon/Toets.git
+ 1627  git push -u origin main
+ 1628  cd ../..
+ 1629  vi .bashrc 
+ 1630  bash
+ 1631  cd proj/Toets/
+ 1632  l
+ 1633  vi testes
+ 1634  gp
+ 1635  cd ../..
+ 1636  vi .bashrc 
+ 1637  l
+ 1638  cd git_cmd
+ 1639  vi git_cmd 
+ 1640  l -ah
+ 1641  less git_cmd 
+ 1642  rm .git_cmd.swp 
+ 1643  l
+ 1644  cd Documents/
+ 1645  l
+ 1646  cd python/
+ 1647  l
+ 1648  cd practicebook/
+ 1649  l
+ 1650  vi x13.py
+ 1651  l
+ 1652  vi x13.py 
+ 1653  vi x1.py 
+ 1654  vi x2.py 
+ 1655  vi x9.py 
+ 1656  l
+ 1657  cd proj/
+ 1658  l
+ 1659  cd Toets/
+ 1660  l
+ 1661  vi my christus
+ 1662  vi christus
+ 1663  gp
+ 1664  man mplayer 
+ 1665  cd ~/Documents/
+ 1666  l
+ 1667  cd python/
+ 1668  l
+ 1669  cd practicebook/
+ 1670  l
+ 1671  py x13.py 
+ 1672  rm .x13.py.sw
+ 1673  l -ah
+ 1674  rm .x10.py.swp 
+ 1675  rm .*
+ 1676  l
+ 1677  l -ah
+ 1678  py x13.py 
+ 1679  l
+ 1680  py x1.py 
+ 1681  py x9.py 
+ 1682  python x13.py 
+ 1683  py x13.py 
+ 1684  python x13.py 
+ 1685  py x13.py 
+ 1686  py x9.py 
+ 1687  cd Music/
+ 1688  l
+ 1689  cd The\ Greatest\ Rock\ Album/
+ 1690  mplayer * --shuffle
+ 1691  mplayer * -shuffle
+ 1692  cd ..
+ 1693  l
+ 1694  mplayer * -shuffle
+ 1695  cd ../Videos/
+ 1696  l
+ 1697  cd 'Silicon Valley Season 5 Mp4 1080p'/
+ 1698  l
+ 1699  cat Read\ Me.txt 
+ 1700  mplayer 
+ 1701  mplayer *
+ 1702  cd ~/Music/
+ 1703  l
+ 1704  cd NAS
+ 1705  cd nas
+ 1706  cd Nas/
+ 1707  l
+ 1708  cd ..
+ 1709  cd 'No Doubt'/
+ 1710  l
+ 1711  mplayer 'No Doubt - Just a Girl.mp3' 
+ 1712  mplayer * -shuffle 
+ 1713  l
+ 1714  cd GNS3/
+ 1715  l
+ 1716  cd notes/
+ 1717  l
+ 1718  vi vlan
+ 1719  telinks
+ 1720  l
+ 1721  cd GNS3/
+ 1722  l
+ 1723  cd notes/
+ 1724  l
+ 1725  vi vlan 
+ 1726  cd ~/Music/
+ 1727  l
+ 1728  cd Movies/
+ 1729  l
+ 1730  cd ..
+ 1731  cd Metalica
+ 1732  l
+ 1733  cd Metallica/
+ 1734  l
+ 1735  cd KVCDC/
+ 1736  l
+ 1737  cd ../..
+ 1738  cd Collective\ Soul/
+ 1739  l
+ 1740  cd The\ Best\ Of/
+ 1741  l
+ 1742  mplayer *
+ 1743  cd ~
+ 1744  l
+ 1745  cd Documents/
+ 1746  l
+ 1747  cd ..
+ 1748  l
+ 1749  cd proj/
+ 1750  l
+ 1751  cd Toets/
+ 1752  l
+ 1753  cat christus 
+ 1754  l
+ 1755  cd Documents/
+ 1756  l
+ 1757  cd python/
+ 1758  l
+ 1759  cd practicebook/
+ 1760  l
+ 1761  vi x13.py 
+ 1762  exit
+ 1763  py x13.py 
+ 1764  exit
+ 1765  cd Documents/python/pcep/
+ 1766  less pcep2.py 
+ 1767  less pcep.py 
+ 1768  l
+ 1769  cd python/
+ 1770  l
+ 1771  cd Automate-with-Python-_-Form-Filling-Script-/
+ 1772  l
+ 1773  vi xpath.py 
+ 1774  vi slice.py 
+ 1775  l
+ 1776  vi toets.py 
+ 1777  cd Documents/python/pcep/
+ 1778  vi 2_1pic.py
+ 1779  mv 2_1pic.py pcep.py
+ 1780  vi pcep.py 
+ 1781  vi pcep2.py
+ 1782  vi pcep.py 
+ 1783  vi pcep2.py 
+ 1784  vi pcep.py 
+ 1785  vi pcep2.py 
+ 1786  vi pcep.py 
+ 1787  vi pcep2.py 
+ 1788  vi pcep.py 
+ 1789  vi pcep2.py 
+ 1790  vi pcep.py 
+ 1791  py toets.py 
+ 1792  l
+ 1793  cd Documents/
+ 1794  l
+ 1795  cd python/
+ 1796  l
+ 1797  mkdir pcep
+ 1798  cd pcep/
+ 1799  vi url.sh
+ 1800  py 2_1pic.py 
+ 1801  py pcep.py 
+ 1802  py pcep2.py 
+ 1803  py pcep.py 
+ 1804  py pcep2.py 
+ 1805  py pcep.py 
+ 1806  py pcep2.py 
+ 1807  py pcep.py 
+ 1808  py pcep2.py 
+ 1809  py pcep.py 
+ 1810  l
+ 1811  cd Documents/python/
+ 1812  l
+ 1813  cd pcep/
+ 1814  l
+ 1815  vi pcep2.py 
+ 1816  reboot
+ 1817  elinks www.duckduckgo.com
+ 1818  elinks www.duckduckgo.com
+ 1819  py x14.py
+ 1820  vi t.py
+ 1821  py x14.py
+ 1822  phoneinfoga
+ 1823  # Download latest release in the current directory
+ 1824  curl -sSL https://raw.githubusercontent.com/sundowndev/phoneinfoga/master/support/scripts/install | bash
+ 1825  # Check the binary
+ 1826  ./phoneinfoga version
+ 1827  # You can also install it globally
+ 1828  sudo mv ./phoneinfoga /usr/bin/phoneinfoga
+ 1829  phoneinfoga
+ 1830  man phoneinfoga
+ 1831  netlab
+ 1832  man netlab
+ 1833  man netsim
+ 1834  man netsim-tools
+ 1835  netlab initial
+ 1836  netlab create -d iosv -p libvirt -s ospf.area=123
+ 1837  netlab up
+ 1838  cd Documents/python/practicebook/
+ 1839  l
+ 1840  vi x14.py
+ 1841  exit
+ 1842  cd Music/
+ 1843  l
+ 1844  cd  Lenny_Kravitz-Greatest_Hits-2000-FTS/
+ 1845  l
+ 1846  mplayer *
+ 1847  l
+ 1848  ls l*
+ 1849  cd 'Lenny Kravits'/
+ 1850  l
+ 1851  cd Greatest\ Hits/
+ 1852  l
+ 1853  mplayer *
+ 1854  l
+ 1855  cd ..
+ 1856  l
+ 1857  cd ..
+ 1858  l
+ 1859  cd George\ Harrison
+ 1860  l
+ 1861  cd Unknown\ Album/
+ 1862  l
+ 1863  mplayer *
+ 1864  cd ..
+ 1865  l
+ 1866  cd RTL\ Ultimative\ Chart\ Show/
+ 1867  l
+ 1868  cd ..
+ 1869  cd Brainwashed/
+ 1870  l
+ 1871  mplayer *
+ 1872  py x16.py 
+ 1873  l
+ 1874  cd Documents/
+ 1875  cd python/practicebook/
+ 1876  l
+ 1877  vi x14.py 
+ 1878  vi x15.py
+ 1879  vi x16.py
+ 1880  sagi wine
+ 1881  wine
+ 1882  man wine
+ 1883  cd Videos/
+ 1884  l
+ 1885  wine StarCraft-Setup.exe 
+ 1886  l
+ 1887  wine idman639.exe  
+ 1888  netlab test
+ 1889  netlab
+ 1890  netlab up
+ 1891  cd ..
+ 1892  l
+ 1893  cd /bin
+ 1894  l
+ 1895  which netlab
+ 1896  cd /home/blikbrein/.local/bin/netlab
+ 1897  /home/blikbrein/.local/bin/netlab
+ 1898  cd ---
+ 1899  provider: virtualbox
+ 1900  defaults:
+ 1901  module: [ ospf ]
+ 1902  nodes: [ r1, r2 ]
+ 1903  links:
+ 1904  - r1
+ 1905  - r2
+ 1906  vi d
+ 1907  exit
+ 1908  egrep -c '(vmx|svm)' /proc/cpuinfo
+ 1909  sudo apt install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
+ 1910  cd ~
+ 1911  l
+ 1912  cd Documents/
+ 1913  l
+ 1914  cd to\ BU_251017/
+ 1915  l
+ 1916  cd Transcend/
+ 1917  l
+ 1918  cd Persoonlik/
+ 1919  l
+ 1920  cd CV
+ 1921  l
+ 1922  cd ..
+ 1923  l
+ 1924  cd ..
+ 1925  l
+ 1926  cd ..
+ 1927  l
+ 1928  cd ..
+ 1929  l
+ 1930  cd UJ_021117/
+ 1931  l
+ 1932  cd Admin/
+ 1933  l
+ 1934  cd Verblyf/
+ 1935  l
+ 1936  cd ..
+ 1937  l
+ 1938  cd Admin/
+ 1939  l
+ 1940  cd ..
+ 1941  l
+ 1942  cd Proj\ pics/
+ 1943  l
+ 1944  cd ..
+ 1945  l
+ 1946  cd Older\ versions/
+ 1947  l
+ 1948  cd Paleomag/
+ 1949  l
+ 1950  cd..
+ 1951  l
+ 1952  cd ..
+ 1953  l
+ 1954  libreoffice Masters_UJ_Geo_021117.doc*
+ 1955  cd Older\ thesis\ versions2/
+ 1956  l
+ 1957  cd ..
+ 1958  dupes
+ 1959  sudo apt install fslint
+ 1960  fdupes
+ 1961  sagi fdupes
+ 1962  fdupes
+ 1963  fslint
+ 1964  pip install beautifulsoup4
+ 1965  py x17.py 
+ 1966  which netlab
+ 1967  cd /home/blikbrein/.local/bin/
+ 1968  l
+ 1969  vi topology.yml
+ 1970  netlab up
+ 1971  sagi VBoxManage
+ 1972  netlab
+ 1973  netlab install VBoxManage
+ 1974  man libvirt
+ 1975  libvirt
+ 1976  sagi libvirt
+ 1977  netlab install ubuntu ansible libvirt
+ 1978  netlab up
+ 1979  netlab test
+ 1980  netlab test libvirt
+ 1981  netlab install ubuntu KVM vigrant
+ 1982  netlab install ubuntu vagrant
+ 1983  netlab install ubuntu vagrant-libvirt
+ 1984  vagrant plugin install libvirt –plugin-version=0.4.1
+ 1985  sagi vagrant
+ 1986  netlab test
+ 1987  l
+ 1988  pdflatex template.tex 
+ 1989  cd ..
+ 1990  l
+ 1991  vi b.
+ 1992  vi b.tex 
+ 1993  pdflatex b.tex 
+ 1994  l
+ 1995  okular b.pdf 
+ 1996  exit
+ 1997  touch poontang
+ 1998  gp
+ 1999  l
+ 2000  rm *.txt leka.odt Your\ big\ idea.pdf 
+ 2001  l
+ 2002  cp ~/.bashrc ./alias
+ 2003  l
+ 2004  less alias
+ 2005  history > history
